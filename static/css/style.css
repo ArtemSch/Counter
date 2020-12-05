@@ -1,0 +1,54 @@
+
+[class^="cube-"] {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 20%;
+  margin-right: 20px;
+}
+
+.cube-green {
+  background: #a9db7a;
+  border: 5px solid #92c563;
+  position: relative;
+  text-align: center;
+  line-height: 4em
+}
+
+
+.cube-red {
+  background: #ee9295;
+  border: 5px solid #e27378;
+  position: relative;
+  text-align: center;
+  line-height: 4em
+
+}
+
+  .scale {
+    transition: 1s;
+   }
+   .scale:hover {
+    transform: scale(1.2);
+   }
+   .parent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.block {
+    background: #60a839;
+
+    img {
+        display: block;
+        border: none;
+    }
+}

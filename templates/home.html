@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+{% load static %}
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="{% static 'JS/script.js' %}"></script>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="cube-green scale">{{cub1.val}}</div>
+
+        <div class="cube-red scale">{{cub2.val}}</div>
+    </div>
+
+
+
+</html>
